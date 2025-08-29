@@ -1,9 +1,11 @@
-import tailwindcss from 'tailwindcss';
-import autoprefixer from 'autoprefixer';
-
-export default {
-  plugins: [
-    tailwindcss,
-    autoprefixer,
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx}'
   ],
+  theme: {
+    extend: {},
+  },
+  plugins: [], // must be an array, even if empty
 };
