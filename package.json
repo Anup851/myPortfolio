@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
-  "engines": {
-    "node": "20.x",
-    "npm": "10.x"
+   "engines": {
+    "node": "20.5.1",
+    "npm": "10.8.0"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development tsx server/index.ts",
